@@ -1,4 +1,7 @@
+const op=require('./module.js');
+
 var x=2;
 var y=4;
-var sum=x+y;
-console.log(sum);
+var z=op.add(x,y);
+var z1=op.sub(x,y);
+console.log(z);
